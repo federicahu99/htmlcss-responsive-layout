@@ -56,21 +56,58 @@ header {
 
 #second-sec {
     background-color: #9694e5;
-    height: 650px;
-
-}
-
-.strategic-planning {
-    display: flex;
-    flex-direction: column;
+    height: 580px;
+    margin: 40px 0;
+    padding: 40px 0;
 }
 
 #paragraph-second {
-    height: 300px;
-    background-color: bisque;
+    height: 500px;
+    background-color: royalblue;
 }
 
-#app-development {
-    height: 350px;
-    background-color: pink;
+/* Third section */
+
+
+#partners {
+    height: 300px;
+    background-color: lightgreen;
+    margin: 40px 0;
+}
+.card-partners {
+    width: 100%;
+    height: 450px;
+    background-color: gold;
+    margin: 35px 0;
+}
+
+/* Forth section */
+
+
+#forth-sec {
+    background-color: #9694e5;
+}
+
+.benefits {
+    width: 100%;
+    height: 450px;
+    background-color: gold;
+    margin: 35px 0;
+}
+
+
+/* Fifth section */
+
+.about-us {
+    width: 100%;
+    height: 450px;
+    background-color: gold;
+    margin: 35px 0;
+}
+
+#linkedin {
+    width: 100%;
+    height: 450px;
+    background-color: royalblue;
+    margin: 35px 0;
 }
