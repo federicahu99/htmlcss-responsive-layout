@@ -4,8 +4,51 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-size: 35px;
 }
 
 /* Utily */
 
+.margin-width {
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
+}
+
+.border-rad {
+    border-radius: 13px;
+}
+
 /* Header */
+
+header {
+    background-color: #0084FD;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#flex-header {
+    display: flex;
+}
+
+/* Body */ 
+
+#first {
+    padding-top: 110px;
+}
+
+.card{
+    width: 100%;
+    background-color:gold;
+    margin: 25px 0;
+}
+
+.small {
+    height: 350px;
+}
+
+.big {
+    height: 550px;
+}
