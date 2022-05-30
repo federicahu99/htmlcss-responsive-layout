@@ -59,14 +59,19 @@ header {
 /* Second section */
 
 #second-sec {
-    height: 580px;
-    margin: 40px 0;
-    padding: 40px 0;
+    height: 780px;
+    margin: 35px 0;
+    padding: 35px 0;
 }
 
 #paragraph-second {
-    height: 500px;
+    height: 350px;
     background-color: royalblue;
+}
+
+#app-development {
+    height: 350px;
+    background-color: skyblue;
 }
 
 /* Third section */
@@ -125,4 +130,37 @@ header {
 footer {
     background-color: black;
     height: 100px;
+}
+
+/* 768px */
+
+@media screen and (min-width: 768px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .big {
+        width: 65%;
+        height: 400px;
+    }
+
+    .small {
+        width: 30%;
+        height: 400px;
+    }
+
+    .card-partners {
+        height: 200px;
+    }
+
+    .row .benefit {
+        display: flex;
+    }
+
+    .benefits {
+        flex-basis: 47%;
+    }
 }
