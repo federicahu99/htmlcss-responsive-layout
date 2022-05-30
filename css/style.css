@@ -11,7 +11,7 @@
 
 .container {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 .border-rad {
@@ -91,10 +91,9 @@ header {
 
 /* Forth section */
 
-
 .benefits {
     width: 100%;
-    height: 450px;
+    height: 300px;
     background-color: gold;
     margin: 35px 0;
 }
@@ -151,16 +150,21 @@ footer {
         width: 30%;
         height: 400px;
     }
-
+    
     .card-partners {
         height: 200px;
     }
 
-    .row .benefit {
-        display: flex;
+    #flex-fifth-sec {
+        position: flex;
+        flex-direction: column;
     }
 
-    .benefits {
-        flex-basis: 47%;
+    .about-us {
+        width: 47%;
     }
+
+    #linkedin {
+        width: 45%;
+    } 
 }
