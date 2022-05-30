@@ -101,13 +101,13 @@ header {
 
 /* Fifth section */
 
-#paragraph-fifth-sec{
+#paragraph-fifth-sec {
     width: 100%;
 }
 
 #about-us {
     width: 100%;
-    height: 550px;
+    height: 450px;
     background-color: gold;
     margin: 35px 0;
 }
@@ -170,14 +170,15 @@ footer {
 
     #flex-fifth-sec {
         display: flex;
+        width: 100%
     }
 
     #about-us {
-        flex-basis: 48%;
+        width: 100%;
     }
 
     #linkedin {
-        flex-basis: 48%;
+        width: 48%;
     } 
 }
 
