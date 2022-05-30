@@ -9,10 +9,9 @@
 
 /* Utily */
 
-.margin-width {
+.container {
     margin: 0 auto;
     width: 90%;
-    height: 200px;
 }
 
 .border-rad {
@@ -33,9 +32,9 @@ header {
     display: flex;
 }
 
-/* Body */ 
+/* Body - First section */ 
 
-#first {
+#first-sec {
     padding-top: 110px;
 }
 
@@ -51,4 +50,27 @@ header {
 
 .big {
     height: 550px;
+}
+
+/* Second section */
+
+#second-sec {
+    background-color: #9694e5;
+    height: 650px;
+
+}
+
+.strategic-planning {
+    display: flex;
+    flex-direction: column;
+}
+
+#paragraph-second {
+    height: 300px;
+    background-color: bisque;
+}
+
+#app-development {
+    height: 350px;
+    background-color: pink;
 }
