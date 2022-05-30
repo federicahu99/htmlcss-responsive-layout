@@ -64,7 +64,7 @@ header {
     padding: 35px 0;
 }
 
-#paragraph-second {
+#paragraph-second-sec {
     height: 350px;
     background-color: royalblue;
 }
@@ -101,9 +101,13 @@ header {
 
 /* Fifth section */
 
-.about-us {
+#paragraph-fifth-sec{
     width: 100%;
-    height: 450px;
+}
+
+#about-us {
+    width: 100%;
+    height: 550px;
     background-color: gold;
     margin: 35px 0;
 }
@@ -154,17 +158,58 @@ footer {
     .card-partners {
         height: 200px;
     }
-
-    #flex-fifth-sec {
-        position: flex;
-        flex-direction: column;
+    
+    .row .benefit {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .about-us {
-        width: 47%;
+    .benefits {
+        flex-basis: 48%;
+    }    
+
+    #flex-fifth-sec {
+        display: flex;
+    }
+
+    #about-us {
+        flex-basis: 48%;
     }
 
     #linkedin {
-        width: 45%;
+        flex-basis: 48%;
+    } 
+}
+
+/* 1200px */
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        width: 75%;
+    }
+
+    #strategic-planning {
+        display: flex;
+    }
+
+    #paragraph-second-sec {
+        flex-basis: 65%;
+    }
+
+    #app-development {
+        flex-basis: 35%;
+    }
+
+    .benefits {
+        flex-basis: 30%;
+    }    
+
+    #about-us {
+        flex-basis: 60%;
+    }
+
+    #linkedin {
+        flex-basis: 35%;
     } 
 }
