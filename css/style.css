@@ -207,8 +207,13 @@ header li > a {
 }
 
 .partner-img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.partner-img img {
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 .card-partners {
@@ -286,6 +291,15 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    .container {
+        width: 90%
+    } 
+    .card {
+        padding: 16px;
+        line-height: 110%;
+        margin: 5px 0;
+    }
+    
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -293,13 +307,11 @@ footer {
     }
 
     .big {
-        width: 65%;
-        height: 400px;
+        flex-basis: 65%
     }
 
     .small {
-        width: 30%;
-        height: 400px;
+        flex-basis: 31%;
     }
     
     .card-partners {
