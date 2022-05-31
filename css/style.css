@@ -322,7 +322,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     .container {
-        width: 90%
+        width: 85%
     } 
     .card {
         padding: 16px;
@@ -396,9 +396,35 @@ footer {
 
 @media screen and (min-width: 1200px) {
 
-    .container {
-        width: 75%;
+    #hamburger-menu {
+        display: none;
     }
+
+    header li > a {
+        display: block;
+    }
+
+    .container {
+        width: 80%;
+    }
+    
+    .card .big {
+        display: flex;
+
+    }
+    
+    .flex-desktop {
+        flex-basis: 47%
+    }
+
+    #app-store {
+        width: 50%;
+    }
+
+    #smartphone-img {
+        width: 40%;
+    }
+
 
     #strategic-planning {
         display: flex;
