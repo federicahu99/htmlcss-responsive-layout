@@ -91,7 +91,7 @@ header li > a {
 .card{
     background-color: #B5DDFF;
     margin: 35px 0;
-    padding: 25px;
+    padding: 45px;
 }
 
 .title-firstsec h2{
@@ -106,7 +106,7 @@ header li > a {
 
 #button-blue {
     background-color: #0084FD;;
-    padding: 10px 65px;
+    padding: 10px 75px;
     color: white;
     border-radius: 20px;
 }
@@ -141,6 +141,7 @@ header li > a {
 
 .text-card-small {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -193,16 +194,47 @@ header li > a {
 
 
 #partners {
-    height: 300px;
-    background-color: lightgreen;
-    margin: 40px 0;
+    text-align: center;
 }
+
+
+#partners p {
+    margin: 45px 0 35px 0;
+}
+
+#partners h2 {
+    color: #9694e5;
+}
+
+.partner-img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
 .card-partners {
-    width: 100%;
-    height: 450px;
-    background-color: gold;
+    background-color: #9694e5;
     margin: 35px 0;
+    padding: 30px;
+    border-radius: 60px;
+    color: white;
 }
+
+.partner-name {
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 0;
+    font-size: 22px;
+}
+
+
+.fa-quote-left {    
+    margin-right: 10px;
+}
+
+.fa-quote-right {
+    margin-left: 10px;
+}
+
 
 /* Forth section */
 
