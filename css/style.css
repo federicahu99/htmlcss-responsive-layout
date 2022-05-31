@@ -192,6 +192,9 @@ header li > a {
 
 /* Third section */
 
+#third-sec {
+    margin-bottom: 100px;
+}
 
 #partners {
     text-align: center;
@@ -207,7 +210,6 @@ header li > a {
 }
 
 .partner-img {
-    margin: 0 auto;
     width: 100%;
 }
 
@@ -243,11 +245,39 @@ header li > a {
 
 /* Forth section */
 
+#forth-sec h2 {
+    color: white;
+    text-align: center;
+}
+
 .benefits {
     width: 100%;
-    height: 300px;
-    background-color: gold;
+    background-color: white;
     margin: 35px 0;
+    color: #9694e5;
+    padding: 25px;
+}
+
+.benefits h3 {
+    font-size: 45px;
+    padding-top: 25px;
+}
+
+.benefits h4 {
+    font-size: 35px;
+}
+
+.benefits p {
+    color:grey
+}
+
+.more-button {
+    display: inline-block;
+    background-color: #9694e5;
+    color:white;
+    padding: 7px 55px;
+    border-radius: 25px;
+    margin: 15px 0;
 }
 
 
@@ -304,32 +334,53 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 60px;
     }
 
     .big {
-        flex-basis: 65%
+        flex-basis: 62%
     }
 
     .small {
-        flex-basis: 31%;
+        flex-basis: 28%;
     }
     
+    #smartphone-img {
+        width: 70%;
+        margin: 15px 0 0 0;
+    }
+
+    #strategic-img {
+        width: 90%;
+    }
+
     .card-partners {
         height: 200px;
+        display: flex;
     }
     
+    .partner-img {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .partner-presentation {
+        float: right;
+    }
+
     .row .benefit {
         display: flex;
         flex-wrap: wrap;
     }
 
     .benefits {
-        flex-basis: 48%;
+        flex-basis: 42%;
     }    
 
-    #flex-fifth-sec {
+    #fifth-sec h2 {
         display: flex;
-        width: 100%
+        width: 100%;
+        color: white;
     }
 
     #about-us {
