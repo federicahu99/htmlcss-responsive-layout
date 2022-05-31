@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -43,6 +43,7 @@ header {
 #flex-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 15px;
 }
 
@@ -71,18 +72,77 @@ header li > a {
 }
 
 .card{
+    background-color: #B5DDFF;
+    margin: 35px 0;
+    padding: 25px;
+}
+
+.title-firstsec h3{
+    color: #0084FD;
+    font-size: 33px;
+    margin-bottom: 28px;
+    font-weight: bold;
+}
+
+.text-firstsec {
+    color: #5a6e7f;
+    font-weight: bold;
+    margin-bottom: 28px;
+    line-height: 180%;
+}
+
+#app-store a {
+    text-decoration: none;
+}
+
+#button-blue {
+    background-color: #0084FD;;
+    padding: 10px 65px;
+    color: white;
+    border-radius: 20px;
+}
+
+#smartphone-img img {
     width: 100%;
-    background-color:gold;
-    margin: 25px 0;
+    margin: 0 auto;
 }
 
-.small {
-    height: 350px;
+#smartphone-img {
+    width: 100%;
+    margin: 15px 0 0 0;
 }
 
-.big {
-    height: 550px;
+
+/* smaller cards */
+
+.icon-blue {
+    color: #0084FD;
+    text-align: center;
 }
+
+.icon-blue i {
+    font-size: 70px;
+    margin: 20px 0;
+}
+
+.title-blue h3{
+    color: #0084FD;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-card-small p {
+    color: #5a6e7f;
+    font-weight: bold;
+    line-height: 180%;
+}
+
+.text-card-small {
+    margin-bottom: 20px;
+}
+
 
 /* Second section */
 
