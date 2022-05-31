@@ -6,12 +6,30 @@
     box-sizing: content-box;
     font-size: 18px;
     font-family: 'PT Sans', sans-serif;
+    line-height: 180%;
 }
 
 li{
     list-style: none;
 }
 
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
 /* Utilities */
 
 .container {
@@ -53,7 +71,6 @@ header {
 
 header a {
     color: white;
-    text-decoration: none;
     margin-left: 15px;
 }
 
@@ -77,22 +94,14 @@ header li > a {
     padding: 25px;
 }
 
-.title-firstsec h3{
+.title-firstsec h2{
     color: #0084FD;
-    font-size: 33px;
     margin-bottom: 28px;
-    font-weight: bold;
 }
 
 .text-firstsec {
     color: #5a6e7f;
-    font-weight: bold;
     margin-bottom: 28px;
-    line-height: 180%;
-}
-
-#app-store a {
-    text-decoration: none;
 }
 
 #button-blue {
@@ -100,11 +109,6 @@ header li > a {
     padding: 10px 65px;
     color: white;
     border-radius: 20px;
-}
-
-#smartphone-img img {
-    width: 100%;
-    margin: 0 auto;
 }
 
 #smartphone-img {
@@ -125,18 +129,14 @@ header li > a {
     margin: 20px 0;
 }
 
-.title-blue h3{
+.title-blue h2{
     color: #0084FD;
     text-align: center;
-    font-size: 33px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .text-card-small p {
     color: #5a6e7f;
-    font-weight: bold;
-    line-height: 180%;
 }
 
 .text-card-small {
@@ -146,20 +146,47 @@ header li > a {
 
 /* Second section */
 
+#strategic-planning {
+    padding: 60px 0;
+    color: white;
+}
+
 #second-sec {
     height: 780px;
     margin: 35px 0;
     padding: 35px 0;
 }
 
+#paragraph-second-sec h2 {
+    margin: 45px 0;
+}
+
 #paragraph-second-sec {
-    height: 350px;
-    background-color: royalblue;
+    margin-bottom: 45px;
 }
 
 #app-development {
-    height: 350px;
-    background-color: skyblue;
+    text-align: center;
+    padding: 22px;
+    color: black;
+    background-color: white;
+}
+
+#app-development p {
+    font-style: italic;
+}
+
+#app-development h3{
+    margin: 20px 0;
+    font-size: 27px;
+}
+
+#app-development a {
+    color: black;
+    background-color: #9694e5;
+    padding: 10px 13px;
+    border-radius: 50%;
+    margin: 35px 0;
 }
 
 /* Third section */
