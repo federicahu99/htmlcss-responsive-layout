@@ -4,10 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    font-size: 35px;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
 }
 
-/* Utily */
+li{
+    list-style: none;
+}
+
+/* Utilities */
 
 .container {
     margin: 0 auto;
@@ -30,10 +35,33 @@ header {
     width: 100%;
     position: fixed;
     z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 #flex-header {
     display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+header li > a {
+    display: none;
 }
 
 /* Body - First section */ 
