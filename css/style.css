@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'PT Sans', sans-serif;
     line-height: 180%;
 }
@@ -233,7 +233,6 @@ header li > a {
     font-size: 22px;
 }
 
-
 .fa-quote-left {    
     margin-right: 10px;
 }
@@ -245,13 +244,18 @@ header li > a {
 
 /* Forth section */
 
+#forth-sec {
+    padding-bottom: 50px;
+}
+
 #forth-sec h2 {
     color: white;
     text-align: center;
+    padding-top: 60px;
 }
 
 .benefits {
-    width: 100%;
+    width: 90%;
     background-color: white;
     margin: 35px 0;
     color: #9694e5;
@@ -271,7 +275,7 @@ header li > a {
     color:grey
 }
 
-.more-button {
+.more-button a {
     display: inline-block;
     background-color: #9694e5;
     color:white;
@@ -285,20 +289,53 @@ header li > a {
 
 #paragraph-fifth-sec {
     width: 100%;
+    margin: 60px 0;
 }
 
 #about-us {
-    width: 100%;
-    height: 450px;
-    background-color: gold;
     margin: 35px 0;
 }
 
+#about-us h2 {
+    color: #9694e5;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
 #linkedin {
-    width: 100%;
-    height: 450px;
-    background-color: royalblue;
     margin: 35px 0;
+}
+
+#linkedin-img img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+#linkedin-caption {
+    position: relative;
+}
+
+#linkedin-quote {
+    color: #9694e5;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#linkedin-caption a {
+    color: white;
+    margin: 15px 0;
+    display: inline-block;
+    background-color: #9694e5;
+    padding: 7px 10px;
+    border-radius: 25px;
+}
+
+#linkedin-caption i {
+    color:#9694e5;
+    position: absolute;
+    font-size: 60px;
+    left: 188px;
+    bottom: 520px;
 }
 
 /* sixth section */
@@ -321,9 +358,16 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    * {
+        font-size: 18px;
+    }
+
     .container {
         width: 85%
     } 
+
+    /* first section*/
+
     .card {
         padding: 16px;
         line-height: 110%;
@@ -350,10 +394,12 @@ footer {
         margin: 15px 0 0 0;
     }
 
+    /* second section*/
     #strategic-img {
         width: 90%;
     }
 
+    /* Third section*/
     .card-partners {
         height: 200px;
         display: flex;
@@ -368,6 +414,7 @@ footer {
         float: right;
     }
 
+    /* forth section*/
     .row .benefit {
         display: flex;
         flex-wrap: wrap;
@@ -377,25 +424,63 @@ footer {
         flex-basis: 42%;
     }    
 
+    /* fifth sec*/
     #fifth-sec h2 {
-        display: flex;
         width: 100%;
-        color: white;
+    }
+
+    #flex-fifth-sec {
+        display: flex;
     }
 
     #about-us {
-        width: 100%;
+        flex-basis: 40%;
+        padding: 20px 20px 20px 0;
     }
 
     #linkedin {
-        width: 48%;
+        flex-basis: 50%;
+        padding: 15px;
+        margin-top: 100px;
     } 
+
+    #linkedin-img img{
+        width: 100%;
+    }
+
+    #linkedin-caption a {
+        padding: 7px 24px;
+    }
+
+    #likedin-caption p{
+        font-size: 24px;
+    }
+
+    #linkedin-quote {
+        font-size: 24px;
+    }
+
+
+    #linkedin-caption i {
+        font-size: 50px;
+        left: 160px;
+        bottom: 420px;
+    }
 }
 
 /* 1200px */
 
 @media screen and (min-width: 1200px) {
 
+    *{
+        font-size: 18px;
+    }
+
+    .container {
+        width: 80%;
+    }
+    
+    /* header */
     #hamburger-menu {
         display: none;
     }
@@ -404,42 +489,65 @@ footer {
         display: block;
     }
 
-    .container {
-        width: 80%;
-    }
+    /* first sec*/
     
-    .card .big {
+    #first-section-flex {
         display: flex;
-
     }
     
-    .flex-desktop {
-        flex-basis: 47%
+    .card {
+        padding: 20px;
+        margin-bottom: 1rem;
     }
 
-    #app-store {
-        width: 50%;
+    .flex-desktop {
+        width: 50%
     }
 
     #smartphone-img {
-        width: 40%;
+        width: 90%;
     }
 
+    /* Second section*/
+    #strategic-img {
+        display: block;
+    }
+
+    #strategic-second-sec {
+        display: block;
+    }
 
     #strategic-planning {
         display: flex;
+        flex-direction: column;
     }
 
-    #paragraph-second-sec {
-        flex-basis: 65%;
+    #flex-strategy {
+        display: flex;
+        padding-top: 150px;
     }
 
-    #app-development {
-        flex-basis: 35%;
+    #development-desktop {
+        width: 70%;
+        margin-top: 200px;
     }
 
+    /* testimonials (third) section*/
+
+    .partner-img {
+        width: 65%;
+    }
+
+    .partner-presentation {
+        margin-top: 50px;
+    }
+
+    /* benefits (fourth) section*/
     .benefits {
-        flex-basis: 30%;
+        flex-basis: 25%;
+        padding: 36px;
+
+        margin-top: 50px;
     }    
 
     #about-us {
