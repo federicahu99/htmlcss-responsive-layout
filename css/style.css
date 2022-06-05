@@ -82,6 +82,13 @@ header li > a {
     display: none;
 }
 
+#nav-button {
+    background-color: white;
+    color: black;
+    padding: 1px 10px;
+    border-radius: 25px;
+}
+
 /* Body - First section */ 
 
 #first-sec {
@@ -214,8 +221,12 @@ header li > a {
 }
 
 .partner-img img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 auto; 
+    object-fit: cover;
+    display: block;
 }
 
 .card-partners {
@@ -229,7 +240,7 @@ header li > a {
 .partner-name {
     text-align: center;
     font-weight: bold;
-    margin: 40px 0;
+    margin: 10px 0;
     font-size: 22px;
 }
 
@@ -309,6 +320,7 @@ header li > a {
 #linkedin-img img {
     width: 60%;
     border-radius: 50%;
+    display: block;
 }
 
 #linkedin-caption {
@@ -326,41 +338,97 @@ header li > a {
     margin: 15px 0;
     display: inline-block;
     background-color: #9694e5;
-    padding: 7px 10px;
+    padding: 7px 15px;
     border-radius: 25px;
+    font-size: 15px;
 }
 
-#linkedin-caption i {
+#linkedin-logo {
+    margin-right: 10px;
+}
+
+#linkedin-img {
+    position: relative;
+}
+
+#linkedin-img i {
     color:#9694e5;
+    font-size: 40px;
     position: absolute;
-    font-size: 60px;
-    left: 188px;
-    bottom: 520px;
+    right: 90px;
+    top: 0;
 }
 
 /* sixth section */
 
 #get-started {
     width: 100%;
-    height: 350px;
-    background-color: royalblue;
-    margin: 35px 0;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#get-stated #title-get-started {
+    color: white;
+    font: 12px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#pricing {
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+#free {
+    font-size: 125px;
+    color: goldenrod;
+    font-weight: 600;
+}
+
+#get-started-button {
+    background-color: white;
+    color: #9694e5;
+    padding: 20px 60px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.fa-circle::before {
+    font-size: 8px;
+    margin: 0px 5px;
+    
+}
+
+#copyright a {
+    color: white;
+    text-decoration: underline;
 }
 
 /* Footer */
 
 footer {
-    background-color: black;
-    height: 100px;
+    background-color: #343434;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 60px auto;
+    width: 90%;
+    text-align: center;
+}
+
+footer a {
+    color: #9694e5;
+    text-decoration: underline;
 }
 
 /* 768px */
 
 @media screen and (min-width: 768px) {
-
-    * {
-        font-size: 18px;
-    }
 
     .container {
         width: 85%
@@ -448,6 +516,10 @@ footer {
         width: 100%;
     }
 
+    #linkedin-img i {
+        right: 0;
+    }
+
     #linkedin-caption a {
         padding: 7px 24px;
     }
@@ -460,21 +532,15 @@ footer {
         font-size: 24px;
     }
 
-
-    #linkedin-caption i {
-        font-size: 50px;
-        left: 160px;
-        bottom: 420px;
+    footer p {
+        width: 40%;
     }
+
 }
 
 /* 1200px */
 
 @media screen and (min-width: 1200px) {
-
-    *{
-        font-size: 18px;
-    }
 
     .container {
         width: 80%;
@@ -546,12 +612,11 @@ footer {
     .benefits {
         flex-basis: 25%;
         padding: 36px;
-
         margin-top: 50px;
     }    
 
     #about-us {
-        flex-basis: 60%;
+        flex-basis: 58%;
     }
 
     #linkedin {
